@@ -19,6 +19,8 @@
 
 // test();
 
+// clousure hocce ekta function er vitor beborito data ze data ta ei function er nijesso scope er vitor declare kora nei orthat ei nijeesso function ta ei data ta own kore na bahire jekono jayga theke asce seta hok ami nijesso scop theke call kori taholeo seta amar clouser ar jodi onno lexical scop theke call kori tahole seta clouser.
+
 function test() {
   var msg = "I am learning lexical scope and Clousure";
 
