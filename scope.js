@@ -46,3 +46,19 @@ function outer() {
   }
   inner();
 }
+
+// scop chaining
+
+const i_am_globals = 43;
+
+function mostOuter() {
+  function outer() {
+    function inner() {
+      function mostOuter() {
+        function main() {
+          console.log(i_am_globals);
+        }
+      }
+    }
+  }
+}
